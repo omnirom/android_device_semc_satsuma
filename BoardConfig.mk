@@ -17,6 +17,9 @@
 
 TARGET_SPECIFIC_HEADER_PATH += device/semc/satsuma/include
 
+# Recovery
+DEVICE_RESOLUTION := 320x480
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/satsuma/bluedroid
 
