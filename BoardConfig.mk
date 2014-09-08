@@ -15,8 +15,6 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/satsuma/BoardConfigVendor.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/semc/satsuma/include
-
 # Recovery
 DEVICE_RESOLUTION := 320x480
 
